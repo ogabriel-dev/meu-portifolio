@@ -19,7 +19,7 @@ Este projeto foi desenvolvido para apresentar meus principais trabalhos e demons
 
 ## 💼 Acesse Meu Portfólio
 
-👉 **[Clique aqui para visitar o site]()**  
+👉 **[Clique aqui para visitar o site](https://gabrieldevv.netlify.app/)**  
 
 ---
 
