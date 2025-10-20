@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a2a44e6;" />
+    <meta name="msapplication-navbutton-color" content="#1a2a44e6;" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#60A5FA" />
+
+    <title>Gabriel Oliveira - Dev</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="./javascript/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home"> <div class="logo">GO</div></a>
+        <div class="menu-btn" id="menu-btn" aria-label="Toggle menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul id="menu-list" role="navigation">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <button id="btn-dark-mode-toggle"></button>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="first-sec">
+      <h3>Olá, eu sou</h3>
+      <h1>Gabriel Oliveira</h1>
+      <span id="maquina" class="typewriter" aria-live="polite"></span>
+      <div class="conj-btn">
+        <a href="#projects"><button>Ver Projetos</button></a>
+        <a href="#contact"><button>Contato</button></a>
+      </div>
+    </section>
+
+    <section id="about" class="second-sec">
+      <h1>Sobre Mim</h1>
+      <div class="container">
+        <img
+          src="media/me-photo.jpg"
+          alt="Foto de Gabriel Oliveira"
+          width="300"
+          class="me-photo"
+        />
+        <div class="info">
+          <h2>Gabriel Oliveira</h2>
+          <p>
+            Desenvolvedor web e estudante de Análise e Desenvolvimento de
+            Sistemas. Tenho como objetivo criar experiências digitais que sejam
+            ao mesmo tempo funcionais e visualmente atraentes.
+          </p>
+
+          <div class="info-contact">
+            <h3>✉️ Email</h3>
+            <p>contato.gabrieldevv@gmail.com</p>
+            <h3>📍 Localização</h3>
+            <p>São Paulo, Brasil</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="third-sec">
+      <h1>Projetos</h1>
+      <p>
+        Explore alguns dos meus projetos mais recentes, desenvolvidos com foco
+        em funcionalidade e design.
+      </p>
+      <div class="container-projects">
+        <div class="card">
+          <img src="media/project-1.png" alt="Projeto Guia do Terço" />
+          <h3>Guia do Terço</h3>
+          <p>
+            Um aplicativo web interativo para guiar orações, com design
+            responsivo e interface intuitiva.
+          </p>
+          <div class="conj-btn">
+            <a
+              href="https://github.com/ogabriel-dev/APP-WEB-GUIA-DO-TERCO"
+              target="_blank"
+              ><button>Código</button></a
+            >
+            <a href="https://saojoseguiadoterco.netlify.app/" target="_blank"
+              ><button>Visualizar</button></a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img src="media/project-2.png" alt="Gerador de Senhas" />
+          <h3>Gerador de Senhas</h3>
+          <p>
+            Um projeto web simples desenvolvido com HTML, CSS e JavaScript, que
+            gera senhas seguras de forma rápida e prática.
+          </p>
+          <div class="conj-btn">
+            <a
+              href="https://github.com/ogabriel-dev/GERADOR-DE-SENHAS"
+              target="_blank"
+              ><button>Código</button></a
+            >
+            <a
+              href="https://ogabriel-dev.github.io/GERADOR-DE-SENHAS/"
+              target="_blank"
+              ><button>Visualizar</button></a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img src="media/project-3.png" alt="Visualizador de Imagens" />
+          <h3>Visualizador de Imagens</h3>
+          <p>
+            Um projeto moderno e interativo feito com HTML, CSS e JavaScript
+            puro, que permite visualizar imagens em uma galeria dinâmica.
+          </p>
+          <div class="conj-btn">
+            <a
+              href="https://github.com/ogabriel-dev/visualizador-imagem"
+              target="_blank"
+              ><button>Código</button></a
+            >
+            <a
+              href="https://ogabriel-dev.github.io/visualizador-imagem/"
+              target="_blank"
+              ><button>Visualizar</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-sec">
+      <h1>Habilidades</h1>
+      <div class="skills-marquee">
+        <div class="marquee-track">
+          <div class="marquee-item">
+            <i class="fab fa-html5" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-css3-alt" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-js-square" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-react" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-node-js" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-git-alt" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </div>
+          <!-- Repetir para o loop do marquee -->
+          <div class="marquee-item">
+            <i class="fab fa-html5" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-css3-alt" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-js-square" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-react" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-node-js" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-git-alt" aria-hidden="true"></i>
+          </div>
+          <div class="marquee-item">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-sec">
+      <h1>Contato</h1>
+      <form
+        class="fomulario-contato"
+        id="formulario"
+        onsubmit="enviarWhatsApp(event)"
+      >
+        <input
+          type="text"
+          placeholder="Digite seu nome"
+          required
+          aria-label="Nome"
+          id="nome"
+        />
+        <textarea
+          placeholder="Digite sua mensagem"
+          class="message"
+          required
+          aria-label="Mensagem"
+          id="mensagem"
+        ></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+      <div class="links">
+        <h2>Ou me encontre em:</h2>
+        <div class="social-links">
+          <a
+            href="https://instagram.com/gabrieldev._"
+            target="_blank"
+            aria-label="Instagram"
+            >Instagram</a
+          >
+          <a
+            href="https://github.com/ogabriel-dev"
+            target="_blank"
+            aria-label="GitHub"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        © 2025
+        <a href="https://github.com/ogabriel-dev" target="_blank"
+          >Gabriel Oliveira</a
+        >. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
